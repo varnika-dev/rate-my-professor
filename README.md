@@ -11,9 +11,9 @@ via OpenRouter, and backed by Pinecone for vector storage.
 ## What it does
 
 Students can ask natural language questions like:
-- _"Who is the best Computer Science professor for Data Structures?"
-- _"Find me a professor who explains concepts clearly and grades fairly"
-- _"Which professors have high ratings in the Math department?"
+- "Who is the best Computer Science professor for Data Structures?"
+- "Find me a professor who explains concepts clearly and grades fairly"
+- "Which professors have high ratings in the Math department?"
 
 The assistant queries an LLM for professor information, stores the AI responses
 and professor data as vectors in Pinecone, and returns conversational answers
